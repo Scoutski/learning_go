@@ -12,3 +12,15 @@ func main() {
   // key value pairs can be deleted with the built in delete function.
   fmt.Println(x)
 }
+
+// Defining nested maps is a bit harder because they need to be defined when they are created. The nested maps also need to be defined when they are made also. The nested maps need to be declared as such while the outer map is being defined as well as being defined when created as a nested map.
+// elements := map[string]map[string]string{
+  // "H": map[string]string{
+  //   "name":"Hydrogen",
+  //   "state":"gas",
+  // },
+  // "He": map[string]string{
+  //   "name":"Helium",
+  //   "state":"gas",
+  // }
+// }
